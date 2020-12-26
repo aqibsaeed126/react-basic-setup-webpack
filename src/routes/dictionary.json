@@ -1,0 +1,19 @@
+[
+  {
+    "path": "/",
+    "component": "Root",
+    "exact": true
+  },
+  {
+    "path": "/page-not-found",
+    "component": "PageNotFound"
+  },
+  {
+    "path": "/home",
+    "component": "Home"
+  },
+  {
+    "path": "/about",
+    "component": "About"
+  }
+]

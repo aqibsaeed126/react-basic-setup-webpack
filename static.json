@@ -1,0 +1,6 @@
+{
+  "root": "build/dev/",
+  "routes": {
+    "/**": "index.html"
+  }
+}

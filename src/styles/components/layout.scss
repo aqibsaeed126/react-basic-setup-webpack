@@ -1,0 +1,21 @@
+.layout-root {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 64px calc(100vh - 72px);
+  overflow: hidden;
+  .nav-bar {
+    height: 72px;
+    width: 100%;
+    border-bottom: 1px solid #555555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a {
+      margin: 0 2rem;
+    }
+  }
+  .route-root {
+    overflow: auto;
+  }
+}

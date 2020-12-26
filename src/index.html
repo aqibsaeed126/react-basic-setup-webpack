@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+
+  <link rel="shortcut icon" href="/assets/images/favicon.png">
+
+  <title>React Setup</title>
+  <style>
+    .loader-sec {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #141414;
+      overflow: hidden;
+    }
+
+    .simple-loader {
+      height: 180px;
+      stroke-width: 16;
+      paint-order: stroke;
+      width: 180px;
+      stroke-dasharray: 1134;
+      animation: train 2s linear infinite;
+    }
+
+    @keyframes train {
+      to {
+        stroke-dashoffset: 2268;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <noscript>
+    You need to enable JavaScript to run this app.
+  </noscript>
+  <div id="root">
+    <!-- loader starts -->
+    <section class="loader-sec">
+      <svg class="simple-loader" viewBox="-100 0 400 350">
+        <path fill="#fff" fill-opacity=0 stroke="#551496" d="M260.026,0H144.5L0,173.593,144.5,347.185H260.026l-144.5-173.593Z"/>
+      </svg>
+    </section>
+    <!-- loader ends -->
+  </div>
+</body>
+
+</html>

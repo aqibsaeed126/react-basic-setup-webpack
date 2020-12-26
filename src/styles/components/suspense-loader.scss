@@ -1,0 +1,19 @@
+.loader-sec {
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .simple-loader {
+    height: 180px;
+    stroke-width: 16;
+    paint-order: stroke;
+    width: 180px;
+    stroke-dasharray: 1134;
+    animation: train 2s linear infinite;
+  }
+  
+  @keyframes train {
+    to {
+      stroke-dashoffset: 2268;
+    }
+  }
